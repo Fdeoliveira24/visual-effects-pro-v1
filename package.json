@@ -5,6 +5,9 @@
   "description": "Visual Effects Pro for 3DVista Tours - Production-ready effects library",
   "main": "effects-pro/effects-core.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "lint": "npm run lint:js && npm run lint:css && npm run lint:html",
     "lint:js": "eslint \"effects-pro/**/*.js\"",
     "lint:css": "stylelint \"effects-pro/**/*.css\"",
